@@ -96,5 +96,25 @@
 html {
     font-family: roboto, sans-serif;
     color: var(--body);
+    font-size: 18px;
 }
 
+p {
+    line-height: 1.4rem;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 1rem;
+    margin-bottom: -4px;
+}
+
+.case1__keywords__brief h3,
+.case1__keywords__brief p,
+.case1__concept h3,
+.case1__concept p,
+.case1__coding h3,
+.case1__coding p
+ {
+    color: #000;
+}

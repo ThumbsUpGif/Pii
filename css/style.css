@@ -1815,3 +1815,33 @@ h3 {
 /* ==============  🥈   ==============*/
 /* ===========  CONCEPT  ============*/
 
+.case2__concept {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*--- 📳 ---*/
+@media screen and (max-width: 699px) {
+
+    .case2__concept__quote {
+        margin-top: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .case2__concept__quote blockquote {
+        width: 60%;
+        /* max-height: 200px; */
+    }
+
+
+    }
+}
+
+
+/*--- 💻 ---*/
+@media screen and (min-width: 700px) {
+
+}
