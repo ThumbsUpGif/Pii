@@ -845,10 +845,7 @@ h3 {
 
 
 
-.case1__photography {
-
-   
-}
+.case1__photography {}
 
 .case1__photography__image img {
     width: 98%;
@@ -876,10 +873,11 @@ h3 {
         margin-left: var(--margin-left-phone);
         margin-right: var(--margin-right-phone);
     }
+
     .case1__photography__image {
         display: flex;
         justify-content: center;
-       margin-top: 80px;
+        margin-top: 80px;
         margin-left: 12px;
         margin-right: 12px;
     }
@@ -1375,7 +1373,7 @@ h3 {
         grid-template-columns: repeat(12, 8.33%);
         grid-template-rows: repeat(20, 1fr);
     }
-    
+
     .case1__coding__color-wrapper {
         background-color: var(--case1-background-dark);
         grid-column: 2 / 13;
@@ -1383,7 +1381,7 @@ h3 {
         z-index: 1;
         transform: translateX(-4.175vw);
     }
-    
+
     .case1__coding__animation-paragraph {
         /* background-color: orange; */
         max-height: 600px;
@@ -1397,11 +1395,11 @@ h3 {
         max-width: var(--max-width-paragraph);
         padding: 10%;
     }
-    
+
     .case1__coding__animation-paragraph h3 {
         align-self: flex-start;
     }
-    
+
     .case1__coding__animation-image {
         /* background-color: yellow; */
         grid-column: 7 / 12;
@@ -1412,14 +1410,14 @@ h3 {
         align-items: center;
         /* padding: 10%; */
     }
-    
+
     .case1__coding__animation-image img {
         width: 100%;
         max-height: 480px;
         height: auto;
     }
-    
-    
+
+
     .case1__coding__analysis-paragraph {
         /* background-color: palevioletred; */
         max-height: 600px;
@@ -1433,11 +1431,11 @@ h3 {
         max-width: var(--max-width-paragraph);
         padding: 10%;
     }
-    
+
     .case1__coding__analysis-paragraph h3 {
         align-self: flex-start;
     }
-    
+
     .case1__coding__analysis-image {
         /* background-color: chartreuse; */
         grid-column: 2 / 7;
@@ -1448,7 +1446,7 @@ h3 {
         align-items: center;
         /* padding: 10%; */
     }
-    
+
     .case1__coding__analysis-image img {
         width: 100%;
         max-height: 480px;
@@ -1700,7 +1698,7 @@ h3 {
     }
 
     .case2__keywords__brief-paragraph h3 {
-     align-self: flex-start;
+        align-self: flex-start;
     }
 
     .case2__keywords__brief-paragraph p {
@@ -1776,7 +1774,7 @@ h3 {
     .case2__research__image {
         /* background-color: lightblue; */
         grid-column: 1 / 6;
-        grid-row:1/11;
+        grid-row: 1/11;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -1812,20 +1810,18 @@ h3 {
 }
 
 
+
+
+
 /* ==============  🥈   ==============*/
 /* ===========  CONCEPT  ============*/
-
-.case2__concept {
-    display: flex;
-    flex-direction: column;
-}
 
 
 /*--- 📳 ---*/
 @media screen and (max-width: 699px) {
 
     .case2__concept__quote {
-        margin-top: 80px;
+        margin-top: 120px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -1836,7 +1832,383 @@ h3 {
         /* max-height: 200px; */
     }
 
+    .case2__concept__concept-wrapper {
+       
+        /* display: flex; */
+        /* flex-direction: column; */
+    }
 
+    .case2__concept__paragraph {
+        margin-top: 80px;
+        /* background-color: pink; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        max-width: 460px;
+        margin-left: var(--margin-left-phone);
+        margin-right: var(--margin-right-phone);
+    }
+
+    .case2__concept__image {
+        margin-top: 60px;
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: center;
+        margin-left: var(--margin-left-phone);
+        margin-right: var(--margin-right-phone);
+    }
+
+    .case2__concept__image img {
+        width: 100%;
+        height: auto;
+        margin-left: var(--margin-left-phone);
+        margin-right: var(--margin-right-phone);
+    }
+
+}
+
+
+/*--- 💻 ---*/
+@media screen and (min-width: 700px) {
+
+    .case2__concept__quote {
+        margin-top: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 60px;
+    }
+
+    .case2__concept__quote blockquote {
+        width: 30%;
+        /* max-height: 200px; */
+    }
+
+    .case2__concept__concept-wrapper {
+
+        display: grid;    
+        min-height: 70vh;
+        max-height: 600px;
+        display: grid;
+        grid-template-columns: repeat(10, 10%);
+        grid-template-rows: repeat(10, 1fr);
+    }
+
+    .case2__concept__paragraph {
+        /* background-color: deeppink; */
+        grid-column: 1 / 6;
+        grid-row: 1 / 11;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 15%;
+    }
+
+    .case2__concept__paragraph h3 {
+        align-self: flex-start;
+    }
+
+    .case2__concept__paragraph p {
+        max-width: 460px;
+        align-self: flex-start;
+    }
+
+    .case2__concept__image {
+        /* background-color: lightblue; */
+        grid-column: 6 / 11;
+        grid-row: 1/11;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2%;
+    }
+
+    .case2__concept__image img {
+        max-width: 80%;
+        height: auto;
+        object-fit: cover;
+    }
+
+}
+
+
+
+
+/* ==============  🥈   ==============*/
+/* ===========  SKETCHING  ============*/
+
+
+/*--- 📳 ---*/
+@media screen and (max-width: 699px) {
+
+
+    .case2__sketching__paragraph {
+        margin-top: 80px;
+        margin-bottom: 60px;
+        /* background-color: pink; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        max-width: 460px;
+        margin-left: var(--margin-left-phone);
+        margin-right: var(--margin-right-phone);
+    }
+
+    .case2__sketching__image-wrapper {
+        margin-top: 120px;
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: center;
+        margin-left: var(--margin-left-phone);
+        margin-right: var(--margin-right-phone);
+    }
+
+    .case2__sketching__image-wrapper  img {
+        width: 100%;
+        height: auto;
+        margin-left: var(--margin-left-phone);
+        margin-right: var(--margin-right-phone);
+    }
+
+    .case2__sketching__text-wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .case2__sketching__blockquote-wrapper {
+        margin-top: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .case2__sketching__blockquote-wrapper blockquote {
+        width: 60%;
+        /* max-height: 200px; */
+    }
+
+
+
+}
+
+
+/*--- 💻 ---*/
+@media screen and (min-width: 700px) {
+
+    .case2__sketching__image-wrapper {
+        background-color: pink;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .case2__sketching__text-wrapper {
+        display: grid;    
+        min-height: 60vh;
+        max-height: 500px;
+        display: grid;
+        grid-template-columns: repeat(10, 10%);
+        grid-template-rows: repeat(10, 1fr);
+    }
+
+    .case2__sketching__blockquote-wrapper {
+        background-color: lightsalmon;
+        grid-column: 1 / 6;
+        grid-row: 1 / 11; 
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 15%;
+    }
+
+    .case2__sketching__paragraph {
+        background-color: yellow;
+        grid-column: 6 / 11;
+        grid-row: 1 / 11; 
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 15%;
+    }
+
+    .case2__sketching__paragraph h3 {
+        align-self: flex-start;
+    }
+    
+
+    .case2__sketching__paragraph p {
+        max-width: 460px;
+        align-self: flex-start;
+    }
+}
+
+
+
+
+
+/* ==============  🥈   ==============*/
+/* ==============  LO-FI  ============*/
+
+
+.case2__lo-fi {
+    height: 50vh;
+    min-height: 600px;
+    /* width: 100%; */
+    background-image: url(../assets/case2_lo-fi-collage.jpg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/*--- 📳 ---*/
+@media screen and (max-width: 699px) {
+
+    .case2__lo-fi {
+        margin-top: 120px;
+        min-height: 300px;
+        background-size: contain;
+        /* background-position-y: center; */
+        background-attachment: scroll;
+    }
+
+}
+
+
+
+
+/* ==============  🥈   ==============*/
+/* ==========  WIREFRAMES  ===========*/
+
+
+/*--- 📳 ---*/
+@media screen and (max-width: 699px) {
+
+    .case2__wireframes__paragraph {
+        margin-top: 80px;
+        /* background-color: pink; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        max-width: 460px;
+        margin-left: var(--margin-left-phone);
+        margin-right: var(--margin-right-phone);
+    }
+
+    .case2__wireframes__image {
+        margin-top: 60px;
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: center;
+        margin-left: var(--margin-left-phone);
+        margin-right: var(--margin-right-phone);
+    }
+
+    .case2__wireframes__image img {
+        width: 60%;
+        height: auto;
+        margin-left: var(--margin-left-phone);
+        margin-right: var(--margin-right-phone);
+    }
+
+}
+
+
+/*--- 💻 ---*/
+@media screen and (min-width: 700px) {
+
+  
+    .case2__wireframes {
+        min-height: 60vh;
+        max-height: 500px;
+        display: grid;
+        grid-template-columns: repeat(10, 10%);
+        grid-template-rows: repeat(10, 1fr);
+    }
+
+    .case2__wireframes__paragraph {
+        background-color: lightsalmon;
+        grid-column: 1 / 6;
+        grid-row: 1 / 11; 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 15%;
+    }
+
+    .case2__wireframes__paragraph h3 {
+        /* background-color: orange; */
+        align-self: flex-start;
+    }
+
+
+    .case2__wireframes__image {
+        background-color: yellow;
+        grid-column: 6 / 11;
+        grid-row: 1 / 11; 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 2%;
+    }
+
+    .case2__wireframes__image img {
+        max-width: 60%;
+        height: auto;
+        object-fit: cover;
+    }    
+}
+
+
+
+/* ==============  🥈   ==============*/
+/* ==========  FLOWCHART  ===========*/
+
+
+/*--- 📳 ---*/
+@media screen and (max-width: 699px) {
+
+
+    .case2__flowchart__paragraph {
+        margin-top: 80px;
+        /* background-color: pink; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        max-width: 460px;
+        margin-left: var(--margin-left-phone);
+        margin-right: var(--margin-right-phone);
+    }
+
+    .case2__flowchart__image {
+        margin-top: 60px;
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: center;
+        margin-left: var(--margin-left-phone);
+        margin-right: var(--margin-right-phone);
+    }
+
+    .case2__flowchart__image img {
+        width: 100%;
+        object-fit: contain;
+        height: auto;
+        margin-left: var(--margin-left-phone);
+        margin-right: var(--margin-right-phone);
+    }
+
+    #case2__flowchart__image__laptop-view {
+        display: none;
     }
 }
 
@@ -1844,4 +2216,293 @@ h3 {
 /*--- 💻 ---*/
 @media screen and (min-width: 700px) {
 
+  
+    .case2__flowchart {
+        min-height: 120vh;
+        max-height: 1400px;
+
+    }
+
+    .case2__flowchart__image {
+        background-color: palegoldenrod;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 2%;
+    }
+
+    .case2__flowchart__image img {
+        max-width: 50%;
+        height: auto;
+        object-fit: cover;
+    }   
+
+
+    .case2__flowchart__text-wrapper {
+        background-color: palevioletred;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 5%;
+    }
+
+    .case2__flowchart__paragraph {
+        height: auto;
+    }
+
+
+    .case2__flowchart__paragraph h3 {
+        align-self: flex-start;
+    }
+    
+
+    .case2__flowchart__paragraph p {
+        max-width: 460px;
+        align-self: flex-start;
+    }
+
+
+    #case2__flowchart__image__phone-view {
+        display: none;
+    }
 }
+
+
+
+
+/* ==============  🥈   ==============*/
+/* ============= MID-FI  =============*/
+
+
+.case2__mid-fi {
+    height: 60vh;
+    min-height: 600px;
+    /* width: 100%; */
+    background-image: url(../assets/case2__mid-fi.jpg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: contain;
+    background-attachment: fixed;
+}
+
+/*--- 📳 ---*/
+@media screen and (max-width: 699px) {
+
+    .case2__mid-fi {
+        margin-top: 120px;
+        min-height: 300px;
+        background-size: contain;
+        /* background-position-y: center; */
+        background-attachment: scroll;
+    }
+
+}
+
+
+
+/* ==============  🥈   ==============*/
+/* ========== VISUAL DESIGN =========*/
+
+
+/*--- 📳 ---*/
+@media screen and (max-width: 699px) {
+
+    .case2__visual-design__paragraph {
+        /* margin-top: 80px; */
+        /* background-color: pink; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        max-width: 460px;
+        margin-left: var(--margin-left-phone);
+        margin-right: var(--margin-right-phone);
+    }
+
+
+    .case2__visual-design__image {
+        margin-top: 60px;
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: center;
+        margin-left: var(--margin-left-phone);
+        margin-right: var(--margin-right-phone);
+    }
+
+    .case2__visual-design__image img {
+        width: 80%;
+        height: auto;
+        margin-left: var(--margin-left-phone);
+        margin-right: var(--margin-right-phone);
+    }
+
+}
+
+/*--- 💻 ---*/
+@media screen and (min-width: 700px) {
+
+    .case2__visual-design {
+        min-height: 60vh;
+        max-height: 500px;
+        display: grid;
+        grid-template-columns: repeat(10, 10%);
+        grid-template-rows: repeat(10, 1fr);
+    }
+
+    .case2__visual-design__paragraph {
+        background-color: lightsalmon;
+        grid-column: 6 / 11;
+        grid-row: 1 / 11; 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 15%;
+    }
+
+    .case2__visual-design__paragraph h3 {
+        /* background-color: orange; */
+        align-self: flex-start;
+    }
+
+
+
+    .case2__visual-design__image {
+        background-color: yellow;
+        grid-column: 1 / 6;
+        grid-row: 1 / 11; 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10%;
+    }
+
+    .case2__visual-design__image img {
+        max-width: 60%;
+        height: auto;
+        object-fit: cover;
+    } 
+}
+
+
+/* ==============  🥈   ==============*/
+/* ==========  ITERATIONS  ==========*/
+
+
+/*--- 📳 ---*/
+@media screen and (max-width: 699px) {
+
+    .case2__iterations__paragraph {
+        /* margin-top: 80px; */
+        /* background-color: pink; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        max-width: 460px;
+        margin-left: var(--margin-left-phone);
+        margin-right: var(--margin-right-phone);
+    }
+
+    .case2__iterations__image {
+        margin-top: 60px;
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: center;
+        margin-left: var(--margin-left-phone);
+        margin-right: var(--margin-right-phone);
+    }
+
+    .case2__iterations__image img {
+        width: 80%;
+        height: auto;
+        margin-left: var(--margin-left-phone);
+        margin-right: var(--margin-right-phone);
+    }
+
+}
+
+/*--- 💻 ---*/
+@media screen and (min-width: 700px) {
+
+    .case2__iterations {
+        min-height: 60vh;
+        max-height: 500px;
+        display: grid;
+        grid-template-columns: repeat(10, 10%);
+        grid-template-rows: repeat(10, 1fr);
+    }
+
+    .case2__iterations__blockquote-wrapper {
+        background-color: lightsalmon;
+        grid-column: 1 / 6;
+        grid-row: 1 / 11; 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 15%;
+    }
+
+    .case2__iterations__blockquote-wrapper blockquote {
+        max-width: 400px;
+    }
+
+    .case2__iterations__image {
+        background-color: yellow;
+        grid-column: 6 / 11;
+        grid-row: 1 / 11; 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 2%;
+    }
+
+    .case2__iterations__image img {
+        width: auto;
+        height: 100%;
+        object-fit: cover;
+    } 
+
+}
+
+
+/* ==============  🥈   ==============*/
+/* ============= HI-FI  =============*/
+
+
+.case2__hi-fi {
+    height: 70vh;
+    min-height: 700px;
+    /* width: 100%; */
+    background-image: url(../assets/case2_hi-fi.jpg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: contain;
+    background-attachment: fixed;
+}
+
+/*--- 📳 ---*/
+@media screen and (max-width: 699px) {
+
+    .case2__hi-fi {
+        margin-top: 120px;
+        min-height: 300px;
+        background-size: contain;
+        /* background-position-y: center; */
+        background-attachment: scroll;
+    }
+
+}
+
+
+
+
+/* ==============  🥈   ==============*/
+/* =========== DESIGN SYSTEM  =========*/
+
