@@ -8,6 +8,7 @@ function setup() {
     var canvasDiv = document.getElementById('hero-artwork');
     var width = canvasDiv.offsetWidth;
     var height = canvasDiv.offsetHeight;
+    // var height = 600;
     var sketchCanvas = createCanvas(width,height);
     console.log(sketchCanvas);
     sketchCanvas.parent("hero-artwork");
@@ -21,7 +22,8 @@ function draw() {
     console.log(bValue);
     console.log(mouseX)
     // background(frameCount/1%360, mouseY/20+30, mouseX/20+30);
-    background(126, gValue, bValue);
+    // background(126, gValue, bValue);
+    background(30, 34, 33);
 
     snakeX.push(mouseX);
     snakeY.push(mouseY);
