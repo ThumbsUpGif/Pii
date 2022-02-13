@@ -1,0 +1,21 @@
+/* Case 2 - Interviews */
+
+.animation-interview {
+    opacity: 0;
+}
+
+@keyframes animation-subheading {
+    from {
+        transform: translateY(-3vw) rotate(20deg);
+        opacity: 0.4;
+    }
+
+    to  {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.animation-photo {
+    opacity: 0.6;
+}
