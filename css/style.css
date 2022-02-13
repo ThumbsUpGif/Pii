@@ -1195,10 +1195,6 @@ h5 {
 
 
 
-.case1__visual-design {
-    /* background-color: pink */
-}
-
 .case1__visual-design__image img {
     /* background-color: red; */
     width: 100%;
@@ -1214,7 +1210,7 @@ h5 {
     .case1__visual-design {
         display: flex;
         flex-direction: column;
-        margin-top: 120px;
+        margin-top: 40px;
     }
 
     .case1__visual-design__paragraph {
@@ -1722,7 +1718,7 @@ h5 {
         background-color: var(--case1-background-dark);
         display: flex;
         flex-direction: column;
-        margin-top: 120px;
+        margin-top: 80px;
         padding-top: 40px;
         padding-bottom: 20px;
     }
@@ -1973,10 +1969,6 @@ h5 {
     object-fit: contain;
 }
 
-
-
-
-
 .case2__above-the-fold__phone-view__headline-wrapper {
     background-color: #fff;
     position: absolute;
@@ -1987,10 +1979,12 @@ h5 {
 }
 
 .case2__above-the-fold__phone-view p {
+    background-color: #fff;
     position: absolute;
-    margin-top: 720px;
+    margin-top: 700px;
     margin-left: 18px;
     margin-right: 18px;
+    padding: 20px;
 }
 
 
