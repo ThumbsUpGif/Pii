@@ -2304,6 +2304,7 @@ h5 {
         /* background-color: yellow; */
         border: 0.4px solid #aaa;
         width: 30%;
+        max-width: 320px;
         height: auto;
     }
 
