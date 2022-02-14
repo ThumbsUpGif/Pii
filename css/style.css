@@ -363,6 +363,7 @@ h5 {
     .first__case-image-1 img {
         /* background-color: lightcoral; */
         width: 70%;
+        max-width: 420px;
         height: auto;
     }
 
@@ -3281,7 +3282,7 @@ h5 {
     }
 
     .case2__design-system__font__paragraph p {
-        max-width: 420px;
+        max-width: 380px;
     }
 
     .case2__design-system__font__image {
@@ -3308,7 +3309,7 @@ h5 {
     }
 
     .case2__design-system__palette__paragraph p {
-        max-width: 420px;
+        max-width: 380px;
     }
 
     .case2__design-system__palette__image {
@@ -3336,7 +3337,7 @@ h5 {
     }
 
     .case2__design-system__icons__paragraph p {
-        max-width: 420px;
+        max-width: 380px;
     }
 
     .case2__design-system__icons__image {
@@ -3364,7 +3365,7 @@ h5 {
     }
 
     .case2__design-system__WCAG__paragraph p {
-        max-width: 420px;
+        max-width: 380px;
     }
 
     .case2__design-system__WCAG__image {
@@ -3392,7 +3393,7 @@ h5 {
     }
 
     .case2__design-system__spacing__paragraph p {
-        max-width: 420px;
+        max-width: 380px;
     }
 
     .case2__design-system__spacing__image {
