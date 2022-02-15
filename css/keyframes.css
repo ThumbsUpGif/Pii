@@ -1,21 +1,17 @@
 /* Case 2 - Interviews */
 
-.animation-interview {
+.animation-case2-interview-image {
     opacity: 0;
 }
 
-@keyframes animation-subheading {
+@keyframes animation-case2-interview-image {
     from {
         transform: translateY(-3vw) rotate(20deg);
         opacity: 0.4;
     }
 
     to  {
-        transform: translateY(0);
+        transform: translateY(-3vw) rotate(20deg);
         opacity: 1;
     }
-}
-
-.animation-photo {
-    opacity: 0.6;
 }
