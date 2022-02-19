@@ -4557,6 +4557,7 @@ h5 {
         align-items: center;
         flex-direction: column;
         padding: 5%;
+        margin-top: 120px;
     }
 
     .case3__link__wrapper {
