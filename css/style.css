@@ -3812,7 +3812,7 @@ h5 {
 
     .case3__keywords__electron {
         min-height: 600px;
-        height: 60vh;
+        height: 50vh;
         max-height: 800px;
         display: grid;
         grid-template-columns: repeat(10, 10%);
@@ -3899,9 +3899,9 @@ h5 {
 
 
     .case3__input {
-        min-height: 700px;
-        height: 60vh;
-        max-height: 900px;
+        min-height: 600px;
+        height: 50vh;
+        max-height: 800px;
         display: grid;
         grid-template-columns: repeat(10, 10%);
         grid-template-rows: repeat(10, 1fr);
@@ -4401,6 +4401,7 @@ h5 {
         /* max-height: 1000px; */
         display: flex;
         flex-direction: row-reverse;
+        margin-top: 120px;
     }
 
     .case3__landing__paragraph {
