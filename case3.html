@@ -43,12 +43,12 @@
 
 
 
-<body>
+<body id="case3-background">
 
 
     <section class="case3__above-the-fold" id="back-to-top">
 
-        <div class="case3__above-the-fold__back-to-first">
+        <div class="global__above-the-fold__back-to-first">
             <a href="index.html">
                 <img src="./assets/back-arrow-1.png" alt="link to front page">
             </a>
@@ -68,7 +68,7 @@
 
             <p>
                 A college project where I coded a simple a desktop app using Electron, then created its brand identity
-                and a landing page from where people could download the app for free.
+                and a landing page from where people can download the app for free.
             </p>
 
 
@@ -84,7 +84,7 @@
 
                 <p>
                     A college project where I coded a simple a desktop app using Electron, then created its brand
-                    identity and a landing page from where people could download the app for free.
+                    identity and a landing page from where people can download the app for free.
                 </p>
 
 
@@ -160,10 +160,12 @@
                 <p>
                     Electron enables people with a primarily web focused skillset to create applications for a desktop
                     environtment. Well known examples of such apps are Spotify, Slack and Microsoft Teams.
-                    I created a countdown timer app and then gave the app an identity with a simple branding process and
+                    I decided to create a countdown timer app and then gave the app an identity with a simple branding
+                    process and
                     a mock landing page. This was essentially a toungue in cheek exercise, given that there are plenty
                     of better solutions out there covering pretty much the same need. But at the same time this was my
-                    first proper attempt at planning and writing my own JS code from scratch, so a fun learning
+                    first proper attempt at planning and <strong>writing my own Javascript code from scratch</strong>,
+                    so a fun learning
                     experience overall.
                 </p>
 
@@ -201,12 +203,28 @@
 
 
 
+    <section class="case3__layout" id="case3-layout">
 
-    <section class="case3__layout">
+        <div class="case3__layout__paragraph">
 
+            <h3>
+                Layout
+            </h3>
+
+            <p>
+                While the amount of information to be displayed is miniscule, I found the number of ways I could present
+                it to be almost endless. <strong>User testing</strong> led me towards a fairly gentle horizontal presentation, but
+                as Electron allows you to use CSS code to create responsive layouts, I saved the vertical layout option
+                for those users who wanted a smaller version of the app to sit at the edge of their workspace.
+            </p>
+
+        </div>
+
+        <div class="case3__layout__image">
+            <img src="./assets/case3_layout2.jpg" alt="various sketches on paper">
+        </div>
 
     </section> <!-- layout -->
-
 
 
 
@@ -214,18 +232,13 @@
 
         <div class="case3__microcopy__paragraph">
             <h3>
-                Layout and microcopy
+                Microcopy
             </h3>
 
             <p>
-                While the amount of information to be displayed is miniscule, I found the number of ways I could present
-                it to be almost endless. Remote user testing led me towards a fairly gentle horizontal presentation, but
-                as Electron allows you to use CSS code to create responsive layouts, I saved the vertical layout option
-                for those users who wanted a smaller version of the app to sit at the edge of their workspace.
-                <br><br>
+
                 Microcopy proved much harder than I had thought, as my desire to create a minimal and elegant app
-                interface increased the scope for misunderstandings. Again I found the answers through user testing,
-                this time in person, taking care to test the app on a wide range of user demographics.
+                interface increased the scope for misunderstanding. Again I found the answers through user testing, taking care to test the app on a wide range of user demographics.
             </p>
 
         </div>
@@ -234,7 +247,7 @@
             <img src="./assets/raw_case3_remote-user-test.png" alt="a screenshot of a Messenger conversatoin">
         </div>
 
-    </section> <!-- input -->
+    </section> <!-- microcopy -->
 
 
     <section class="case3__video">
@@ -244,12 +257,6 @@
             </video>
         </div>
     </section> <!-- video -->
-
-
-
-    <section class="case3__sketches">
-
-    </section>
 
 
 
@@ -263,7 +270,8 @@
             <p>
                 All Electron apps need an icon. This is the icon that will sit on the task bar of your computer when the
                 app is running. I started out exploring both typography and the hour glass motif - but separately.
-                Eventually I realised that by taking a little inspiration from gestalt theory I could combine the two
+                Eventually I realised that by <strong>taking a little inspiration from gestalt theory</strong> I could
+                combine the two
                 together.
                 <br><br>
                 The ampersand refers to the app’s name; Occasions & Deadlines. A slightly unusual name for an app that I
@@ -273,34 +281,65 @@
         </div>
 
         <div class="case3__icon__image">
+
             <img src="./assets/case3_logo.png" alt="the logo for this project">
+        
         </div>
 
     </section> <!-- icon -->
 
+
+
     <section class="case3__landing">
 
         <div class="case3__landing__paragraph">
-            
+
             <h3>
                 Download page
             </h3>
-            
+
             <p>
-                Following in the great tradition of free apps I created a simple landing page, from where one could access both the online and the desktop version of the app. Like the app itself, this was also a mostly tongue in cheek exercise given that the demand for this app is not likely to be very high. Nevertheless, it was a nice way to round off the project and it gave me a chance to practice responsive webdesign.
+                Following in the great tradition of free apps I created a simple landing page, from where one could
+                access both the online and the desktop version of the app. Like the app itself, this was also a mostly
+                tongue in cheek exercise given that the demand for this app is pretty much non-existent. Nevertheless,
+                it was a nice way to round off the project and it gave me a chance to practice responsive webdesign.
             </p>
         </div>
 
         <div class="case3__landing__image">
             <div class="case3__landing__image__phone-view-wrapper">
-                <img src="./assets/placeholder_portrait.png" alt="a screenshot of a phone">
-                <img src="./assets/placeholder_portrait.png" alt="a screenshot of a phone">
+                <img src="./assets/case3__landing-page_cropped_laptop.png" alt="a screenshot of a webpage">
+                <!-- <img src="./assets/case3__landing-page_cropped_phone.png" alt="a screenshot of a phone">  -->
             </div>
 
 
             <div class="case3__landing__image__laptop-view-wrapper">
-                <img src="./assets/case3__landing-page-full_laptop.png" alt="a screenshot of a webpage">
-                <img src="./assets/case3__landing-page-full_phone.png" alt="">
+                <img src="./assets/case3__landing-page_full_laptop.png" alt="a screenshot of a webpage">
+                <img src="./assets/case3__landing-page_full_phone.png" alt="">
+            </div>
+        </div>
+
+    </section>  <!-- landing -->
+
+    <section class="case3__link">
+
+        <div class="case3__link__download-page">
+            <h3>For landing page see:</h3>
+            <a href="https://thumbsupgif.github.io/T8websiteV1/">https://thumbsupgif.github.io/T8websiteV1/</a>
+        </div>
+
+
+        <div class="case3__link__github-repository">
+            <h3>For Github repository:</h3>
+            <a href="https://github.com/ThumbsUpGif/ElectronAppT8v3">https://github.com/ThumbsUpGif/ElectronAppT8v3</a>
+        </div>
+
+
+        <div class="case3__link__wrapper">
+            <div class="case3__link__back-to-top">
+                <a href="#back-to-top" class="js-scroll">
+                    <img src="./assets/back-arrow-1.png" alt="link to top of page">
+                </a>
             </div>
         </div>
 
