@@ -2067,7 +2067,7 @@ h5 {
 }
 
 .case2__above-the-fold__laptop-view__image {
-    background-color: orange;
+    background-color: #EDCC2E;
     background-image: url(../assets/raw_case2_above-the-fold_background.png);
     grid-column: 7 / 11;
     grid-row: 1 / 11;
