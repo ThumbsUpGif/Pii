@@ -399,7 +399,8 @@ h5 {
     }
 
     .first__case-image-1,
-    .first__case-image-2 {
+    .first__case-image-2,
+    .first__case-image-3 {
         /* background-color: royalblue; */
         width: 50%;
         display: flex;
@@ -410,7 +411,7 @@ h5 {
 
     .first__case-image-1 img {
         /* background-color: lightcoral; */
-        width: 70%;
+        width: 40%;
         max-width: 420px;
         height: auto;
     }
@@ -419,7 +420,12 @@ h5 {
         /* background-color: lightcoral; */
         width: 50%;
         height: auto;
+    }
 
+    .first__case-image-3 img {
+        width: 40%;
+        max-width: 420px;
+        height: auto;
     }
 
 }
@@ -2653,7 +2659,7 @@ h5 {
 
 
 .case2__lo-fi {
-    height: 50vh;
+    height: 80vh;
     max-width: 1400px;
     min-height: 00px;
     max-height: 600px;
@@ -2882,12 +2888,12 @@ h5 {
     min-height: 660px;
     max-height: 760;
     max-width: 1400px;
-    background-image: url(../assets/case2__mid-fi.jpg);
+    background-image: url(../assets/play_mid-fi_collage_30deg_3.png);
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y: center;
     background-size: contain;
-    /* background-attachment: fixed; */
+    background-attachment: fixed;
 }
 
 /*--- 📳 ---*/
