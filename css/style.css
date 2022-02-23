@@ -399,7 +399,8 @@ h5 {
     }
 
     .first__case-image-1,
-    .first__case-image-2 {
+    .first__case-image-2,
+    .first__case-image-3 {
         /* background-color: royalblue; */
         width: 50%;
         display: flex;
@@ -410,7 +411,7 @@ h5 {
 
     .first__case-image-1 img {
         /* background-color: lightcoral; */
-        width: 70%;
+        width: 40%;
         max-width: 420px;
         height: auto;
     }
@@ -419,7 +420,12 @@ h5 {
         /* background-color: lightcoral; */
         width: 50%;
         height: auto;
+    }
 
+    .first__case-image-3 img {
+        width: 40%;
+        max-width: 420px;
+        height: auto;
     }
 
 }
