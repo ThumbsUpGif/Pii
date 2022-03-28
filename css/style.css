@@ -2399,6 +2399,68 @@ h5 {
 
 
 
+/* ==============  🥈   ==============*/
+/* ==========  USER JOURNEY  ===========*/
+
+
+/*--- 📳 ---*/
+@media screen and (max-width: 699px) {
+
+
+
+
+    .case2__user-journey__image {
+        margin-top: 60px;
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: center;
+        margin-left: var(--margin-left-phone);
+        margin-right: var(--margin-right-phone);
+    }
+
+    .case2__user-journey__image img {
+        width: 100%;
+        object-fit: contain;
+        height: auto;
+        margin-left: var(--margin-left-phone);
+        margin-right: var(--margin-right-phone);
+    }
+}
+
+
+/*--- 💻 ---*/
+@media screen and (min-width: 700px) {
+
+
+    .case2__user-journey {
+        /* background-color: pink; */
+        min-height: 1100px;
+        height: 90vh;
+        max-height: 1200px;
+
+    }
+
+    .case2__user-journey__image {
+        /* background-color: palegoldenrod; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right:auto;
+        margin-top: 200px;
+    }
+
+    .case2__user-journey__image img {
+        max-width: 1000px;
+        height: auto;
+        object-fit: contain;
+    }
+
+}
+
+
+
+
 
 
 /* ==============  🥈   ==============*/
@@ -2461,8 +2523,8 @@ h5 {
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-top: 120px;
-        margin-bottom: 60px;
+        margin-top: 40px;
+        margin-bottom: 80px;
     }
 
     .case2__concept__quote blockquote {
@@ -2519,9 +2581,9 @@ h5 {
     .case2__concept__colour-wrapper {
         background-color: #EDCC2E;
         z-index: -1;
-        grid-column: 2 / 12;
+        grid-column: 1 / 13;
         grid-row: 3 / 9;
-        transform: translateX(-5%);
+        /* transform: translateX(-5%); */
     }
 
 
